@@ -4,5 +4,5 @@
 
 .bar-labels{position:absolute;z-index:6;bottom:36px;left:80.4px;height:15px;display:flex;pointer-events:none;font-size:11px;line-height:15px;text-align:center}.bar-labels span{background:#fff;width:80.4px}.bar-labels span+span{color:#ff4d88}
 
-.pink{background-image:url("assets/记录列表.png");background-size:402px 794px;filter:url(#pink-highlight)}
-.record-track[data-target="analysis"] .pink{background-position:-24px -631px}.record-track[data-target="simple"] .pink{background-position:-24px -534px}
+.thick-light{box-shadow:inset 0 0 0 2px #ff71a0}.thick-deep{box-shadow:inset 0 0 0 2px #ff4d88}
+@media(max-width:600px){.options{width:100%;justify-content:center;gap:2px}.options button{font-size:11px;padding:8px 3px;white-space:nowrap}}
