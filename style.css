@@ -3,3 +3,6 @@
 .panel{clip-path:inset(20px 0 0)}.scene-times{display:none;position:absolute;inset:0;pointer-events:none}.scene-times span{position:absolute;left:36px;background:#fff;color:#999;font-size:15px;line-height:21px;min-width:65px}.scene-times span:nth-child(1){top:158px}.scene-times span:nth-child(2){top:255px}.scene-times span:nth-child(3){top:352px}.scene-times span:nth-child(4){top:449px}.scene-times span:nth-child(5){top:546px}.record-track[data-target="simple"] .scene-times{display:block}
 
 .bar-labels{position:absolute;z-index:6;bottom:36px;left:80.4px;height:15px;display:flex;pointer-events:none;font-size:11px;line-height:15px;text-align:center}.bar-labels span{background:#fff;width:80.4px}.bar-labels span+span{color:#ff4d88}
+
+.pink{background-image:url("assets/记录列表.png");background-size:402px 794px;filter:url(#pink-highlight)}
+.record-track[data-target="analysis"] .pink{background-position:-24px -631px}.record-track[data-target="simple"] .pink{background-position:-24px -534px}
