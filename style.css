@@ -4,5 +4,5 @@
 
 .bar-labels{position:absolute;z-index:6;bottom:36px;left:80.4px;height:15px;display:flex;pointer-events:none;font-size:11px;line-height:15px;text-align:center}.bar-labels span{background:#fff;width:80.4px}.bar-labels span+span{color:#ff4d88}
 
-.thick-light{box-shadow:inset 0 0 0 2px #ff71a0}.thick-deep{box-shadow:inset 0 0 0 2px #ff4d88}
+.thick-light{box-shadow:inset 0 0 0 2px #ff71a0}.node{position:absolute;left:12px;width:7px;height:7px;border-radius:50%;background:#ff71a0;pointer-events:none;opacity:0;transform:translate(-50%,-50%)}
 @media(max-width:600px){.options{width:100%;justify-content:center;gap:2px}.options button{font-size:11px;padding:8px 3px;white-space:nowrap}}
