@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>记录定位动效</title><link rel="stylesheet" href="style.css?v=2"></head>
+<body>
+<nav class="options" aria-label="选择方案"><button type="button" class="chosen" data-plan="outline">方案1（描边）</button><button type="button" data-plan="fill">方案2（底色）</button></nav>
+<main class="viewport"><section class="phone" aria-label="记录定位动效演示">
+ <div class="status" aria-label="状态栏"></div>
+ <section class="search-page">
+  <header class="search-bar"><button class="back-search" type="button" aria-label="返回">‹</button><div class="search-field"><span class="search-glass"></span><span>体重</span></div><span class="search-label">搜索</span></header>
+  <div class="results">
+   <button class="search-result full" data-target="analysis"><span class="time">11月12日 07:45</span><span class="maintext"><em>体重</em>52.3公斤，比昨天下降0.2公斤，感觉好...</span><span class="ai"><img src="assets/food-sparkle-2x.png" alt=""><span>本次<em>体重</em>52.3公斤，较9月21日记录的50公...</span></span></button>
+   <button class="search-result compact" data-target="simple"><span class="time">11月12日 07:44</span><span class="shorttext"><span class="weight-icon"></span><span><em>体重</em>：52.3公斤</span></span></button>
+   <button class="search-result compact" data-target="simple"><span class="time">11月12日 07:44</span><span class="shorttext"><span class="weight-icon"></span><span><em>体重</em>：52.3公斤</span></span></button>
+  </div>
+ </section>
+ <section class="record-page" hidden>
+  <div class="record-clip"><div class="timeline"></div><div class="record-track"><img src="assets/记录列表.png" alt="记录时间轴"><div class="scene-times" aria-hidden="true"><span>06:44</span><span>07:23</span><span>07:40</span><span>07:42</span><span>07:44</span></div><div class="overlay outline" aria-hidden="true"></div><div class="overlay fill" aria-hidden="true"></div></div></div>
+  <header class="record-header"><button class="search-return" aria-label="返回搜索结果"><span class="search-glass"></span></button><span>记录</span><span class="feedback">反馈</span></header>
+  <img class="panel" src="assets/empty-panel-2x.png" alt="工具面板"><img class="tabbar" src="assets/tabbar-2x.png" alt="底部导航"><div class="bar-labels" aria-hidden="true"><span>日历</span><span>记录</span></div>
+ </section>
+</section></main><script src="app.js?v=3"></script></body></html>
